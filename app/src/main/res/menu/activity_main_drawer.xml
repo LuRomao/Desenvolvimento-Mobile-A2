@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_cadastro_clientes"
+            android:icon="@drawable/ic_biker"
+            android:title="@string/menu_cadastro" />
+        <item
+            android:id="@+id/nav_historico_alugueis"
+            android:icon="@drawable/ic_calendar"
+            android:title="@string/menu_historico_alugueis" />
+        <item
+            android:id="@+id/nav_reservas"
+            android:icon="@drawable/ic_bike"
+            android:title="@string/menu_reservas" />
+        <item
+            android:id="@+id/nav_missao"
+            android:icon="@drawable/ic_hiking"
+            android:title="@string/menu_missao" />
+        <item
+            android:id="@+id/nav_sobre"
+            android:icon="@drawable/ic_baloons"
+            android:title="@string/menu_sobre" />
+    </group>
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.trabalhoa2.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_cadastro_clientes"
+        android:name="com.example.trabalhoa2.ui.CadastroClientesFragment"
+        android:label="@string/menu_cadastro"
+        tools:layout="@layout/fragment_cadastro_clientes" />
+
+    <fragment
+        android:id="@+id/nav_historico_alugueis"
+        android:name="com.example.trabalhoa2.ui.HistoricoAlugueisFragment"
+        android:label="@string/menu_historico_alugueis"
+        tools:layout="@layout/fragment_historico_alugueis" />
+
+    <fragment
+        android:id="@+id/nav_reservas"
+        android:name="com.example.trabalhoa2.ui.ReservasFragment"
+        android:label="@string/menu_reservas"
+        tools:layout="@layout/fragment_reservas" />
+
+    <fragment
+        android:id="@+id/nav_programa_milhagem"
+        android:name="com.example.trabalhoa2.ui.ProgramaDeMilhagemFragment"
+        android:label="@string/menu_programa_milhagem"
+        tools:layout="@layout/fragment_programa_de_milhagem" />
+
+    <fragment
+        android:id="@+id/nav_missao"
+        android:name="com.example.trabalhoa2.ui.MissaoFragment"
+        android:label="@string/menu_missao"
+        tools:layout="@layout/fragment_missao" />
+
+    <fragment
+        android:id="@+id/nav_sobre"
+        android:name="com.example.trabalhoa2.ui.SobreFragment"
+        android:label="@string/menu_sobre"
+        tools:layout="@layout/fragment_sobre" />
+</navigation>

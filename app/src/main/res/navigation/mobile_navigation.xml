@@ -30,12 +30,6 @@
         tools:layout="@layout/fragment_reservas" />
 
     <fragment
-        android:id="@+id/nav_programa_milhagem"
-        android:name="com.example.trabalhoa2.ui.ProgramaDeMilhagemFragment"
-        android:label="@string/menu_programa_milhagem"
-        tools:layout="@layout/fragment_programa_de_milhagem" />
-
-    <fragment
         android:id="@+id/nav_missao"
         android:name="com.example.trabalhoa2.ui.MissaoFragment"
         android:label="@string/menu_missao"
